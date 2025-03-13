@@ -4,7 +4,7 @@ const tempDivInfo = document.querySelector("#temp-div");
 const weatherInfoDiv = document.querySelector("#weather-info");
 const weatherIcon = document.querySelector("#weather-icon");
 const houryForecastDiv = document.querySelector("#hourly-forecast");
-const apiKey = "";
+const apiKey = "6d0dfb97a21b07c3370092af08a638ad";
 
 const letsFetch = async () => {
   const city = input.value;
